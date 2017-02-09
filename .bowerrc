@@ -1,0 +1,5 @@
+{
+  "directory": "public/assets/js/libs",
+  "analytics": false,
+  "timeout"  : 120000
+}
