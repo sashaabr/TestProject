@@ -1,9 +1,13 @@
 module.exports = function (app, db) {
     'use strict';
+    var models = require('../helpers/models.js')(db);
+    var userRouter = require('./users')(models);
 
     app.get('/', function (req, res, next) {
         res.sendfile('index.html');
     });
+
+    app.use('/users', userRouter);
 
     app.use(errHandler);
 
