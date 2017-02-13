@@ -13,6 +13,7 @@ define([
         listTemplate  : _.template(listTemplate),
 
         initialize: function (options) {
+
             this.contentType = options.contentType || 'No contentType';
             this.collection = new Collection({
                 page       : 1,
