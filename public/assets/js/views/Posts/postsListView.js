@@ -8,6 +8,7 @@ define([
     'use strict';
 
     var ListView = Backbone.View.extend({
+
         el            : '#listWrapper',
         headerTemplate: _.template(headerTemplate),
         listTemplate  : _.template(listTemplate),
