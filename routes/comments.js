@@ -5,7 +5,7 @@ var Handler = require('../handlers/comments');
 module.exports = function (models) {
     var handler = new Handler(models);
 
-    router.get('/comments', handler.getAll);
+    router.get('/comments', handler.getAll); // Get all comments
 
     router.post('/comments', handler.createComment);
 
