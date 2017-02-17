@@ -1,0 +1,16 @@
+<div id="avatarContainer" class="media-left">
+    <img class="media-object" id="avatar" src=<%= user.photo %>>
+</div>
+<div id="userProfile">
+    <span class="label">First Name: </span>
+    <span id="firstName"><%= user.firstName %></span><br>
+    <span class="label">Last Name: </span>
+    <span id="lastName"><%= user.lastName %></span><br>
+    <span class="label">Date of birth: </span>
+    <span id="dateOfBirth"><%= user.dateOfBirth %></span><br>
+    <span class="label">E-Mail: </span>
+    <span id="email"><%= user.email %></span><br>
+    <span class="label">Phone: </span>
+    <span id="phone"><%= user.phone %></span><br>
+    <button id="editProfileBtn">Edit</button>
+</div>

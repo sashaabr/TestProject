@@ -1,0 +1,21 @@
+<div id="avatarHolder" class="media-left">
+    <img id="avatar" class="media-object" src=<%= user.photo %>>
+</div>
+<div id="userInfo">
+    <h3>Profile:</h3>
+    <span class="label">First Name </span>
+    <input type="text" id="firstName" value="<%= user.firstName || ''%>" /><br>
+    <span class="label">Last Name </span>
+    <input type="text" id="lastName" value="<%= user.lastName || ''%>"/><br>
+    <span class="label">Date of birth </span>
+    <input type="date" id="dateOfBirth" value="<%= user.birthDay || ''%>" /><br>
+    <span class="label">Phone Number </span>
+    <input type="phone" id="phone" value="<%= user.phone || ''%>"/><br>
+    <span class="label">E-Mail: </span>
+    <input type="email" id="email" value="<%= user.email || ''%>"/><br>
+    <span class="label">New password: </span>
+    <input type="password" id="password" value="<%= user.password || ''%>"/><br>
+
+    <button id="saveBtn">Save</button>
+    <button id="cancelBtn">Cancel</button>
+</div>
