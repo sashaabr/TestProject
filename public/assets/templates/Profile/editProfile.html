@@ -1,5 +1,7 @@
 <div id="avatarHolder" class="media-left">
-    <img id="avatar" class="media-object" src=<%= user.photo %>>
+    <img id="avatar" class="media-object" value="<%= user.photo %>"/>
+    <span class="label">Photo URL:</span><br>
+    <input type="text" id="photoURL" value="<%= user.photo %>"/>
 </div>
 <div id="userInfo">
     <h3>Profile:</h3>
