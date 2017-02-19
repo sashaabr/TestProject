@@ -1,0 +1,7 @@
+<% categories.forEach(function(category){%>
+<tr data-id="<%- category._id%>">
+    <td><%= category.title%></td>
+    <td><button class="editBtn">Edit</button></td>
+    <td><button class="deleteBtn">Delete</button></td>
+</tr>
+<%})%>
