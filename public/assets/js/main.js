@@ -10,7 +10,7 @@ require.config({
 
     paths: {
         jQuery: './libs/jquery/dist/jquery',
-        jqueryui: './libs/jquery-ui.min',
+        jqueryui: './libs/jquery-ui/jquery-ui.min',
         Underscore: './libs/underscore/underscore',
         Backbone: './libs/backbone/backbone',
         Bootstrap: './libs/bootstrap/dist/js/bootstrap.min',
@@ -32,7 +32,7 @@ require.config({
 
         jqueryui: ['jQuery'],
 ////
-        app: ['Backbone', 'Bootstrap'] //, //'jqueryui']
+        app: ['Backbone'/*, 'Bootstrap'*/] //, //'jqueryui']
     }
 });
 

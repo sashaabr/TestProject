@@ -2,10 +2,10 @@ define([
     'Backbone',
     'Underscore',
     'jQuery',
-    'views/mainView',
-    'views/loginView',
-    'views/registerView'
-], function (Backbone, _, $, MainView, LoginView, RegisterView) {
+    'views/mainView'/*,
+     'views/loginView',
+     'views/registerView'*/
+], function (Backbone, _, $, MainView/*, LoginView, RegisterView*/) {
     'use strict';
 
     var appRouter = Backbone.Router.extend({
